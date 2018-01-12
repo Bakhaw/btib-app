@@ -30,6 +30,10 @@ p {
   padding: 40px 0;
 }
 
+::placeholder {
+  font-size: 18px;
+}
+
 .form input,
 .form textarea,
 .form button {
@@ -55,3 +59,13 @@ p {
   color: white;
 }
 
+.errorMessage {
+  width: 55%;
+  margin: auto;
+  text-align: right;
+}
+
+.errorMessage p {
+  color: rgb(73, 71, 71);
+  font-size: 16px;
+}
