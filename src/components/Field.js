@@ -17,7 +17,7 @@ class Field extends Component {
               <p>{this.props.textareaValue.length}/140</p>
             </div>
             {this.props.textareaValue.length > 140 && (
-              <p>La description doit contenir 140 caractères maximum</p>
+              <p>{this.props.errorMessage}</p>
             )}
           </div>
         ) : (

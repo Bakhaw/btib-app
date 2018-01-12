@@ -145,6 +145,7 @@ class Form extends Component {
               multiline={true}
               handleTextarea={this.handleTextarea}
               textareaValue={this.state.textareaValue}
+              errorMessage="La description doit contenir 140 caractères maximum"
             />
 
             <button type="button" onClick={this.onSubmit}>
